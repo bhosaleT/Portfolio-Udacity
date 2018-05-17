@@ -1,0 +1,90 @@
+/* .my-container{
+    border: 1px solid green;
+}
+
+.my-row{
+    border: 2px solid red;
+}
+
+.my-col{
+    border: 2px dotted blue;
+} */
+
+body {
+    margin: 10px 30px 10px 30px;
+}
+
+/* 
+                MENU
+1.Header
+2.Body
+3.featured work grid
+
+*/
+
+/*-------------------------------- 1.Header----------------------------------------- */
+.my-container{
+    min-width: 320px;
+}
+
+.logo-image {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.title {
+    text-align: right;
+   
+}
+
+.subtitle {
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*--------------------------------2.Body----------------------------------------- */
+
+.breaking-line {
+    height: 5px;
+    background-color: #7d97ad;
+}
+
+.title-image {
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px lightgray;
+}
+
+.bottom-title{
+    font-family: 'Playfair Display', serif;
+    margin: 15px 0 15px 0;
+    color: #7d97ad;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*--------------------------------2.FooterGrid----------------------------------- */
+
+.work-img{
+    width: inherit;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px  #7d97ad;
+}
+
+.work-title{
+    font-family: 'Playfair Display', serif;
+    color: #7d97ad;
+    text-align: center;
+}
+
+.work-link{
+    font-family: 'Playfair Display', serif;
+    color: #7d97ad;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------- */
